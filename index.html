@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bayut</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="favicon" href="images/conicon.png">
@@ -12,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -76,10 +78,10 @@
     </header>
   </section>
 
-  <section>
+  <section class="banner-section">
 
     <div class="banner-container">
-      <div class="banner-background"><img src="images/banner.jpg" alt="banner building"></div>
+      <div class="banner-background"><img src="images/banner2.png" alt="banner building"></div>
       <div class="banner-outer">
       <div class="wrapper">
          
@@ -87,22 +89,22 @@
         <div class="banner-details"> <div class="banner-heading"><h2>Search properties for sale and to rent in the UAE</h2></div>
           <div class="banner-head">
             <a class="property-btn">Property Search</a>
-            <a>Truvalue</a>
+            <a class="">Truvalue</a>
           </div>
         </div>
           <div class="banner-line"></div>
           <div class="banner-details">
           <div class="banner-info">
             <div class="banner-dropdowns">
-              <div class="dropdown-inner rent"> 
-                
+              <div class="dropdown-inner rent">
+
                 <select name="apparment">
                   <option value="Rent">Rent</option>
                   <option value="Rent">Rent</option>
                   <option value="Rent">Rent</option>
                   <option value="Rent">Rent</option>
                 </select>
-        
+              
               </div>
               <div class="dropdown-inner beds">
                   
@@ -118,12 +120,13 @@
             </div>
             <div class="banner-btn">
               <div class="dropdown-inner area">
-                <select name="apparment">
+                    <select name="apparment">
                   <option value="Area (sqft)">Area (sqft)</option>
                   <option value="220 sqft">220 sqft</option>
                   <option value="120 sqft">120 sqft</option>
                   <option value="720 sqft">720 sqft</option>
                 </select>
+              
               </div>
               <div class="find-btn">
                 <button>Find</button>
@@ -131,8 +134,8 @@
             </div>
           </div>
           <div class="banner-text">
-            <p><span class="banner-new">New</span> <span class="banner-search">Search 2.0</span> Find homes by commute
-              time<span class="banner-advance"> Advance Search Here</span></p>
+            <p><a href="#"><span class="banner-new">New</span> <span class="banner-search">Search 2.0</span> Find homes by commute
+              time<span class="banner-advance">Advance Search Here</span></a></p>
           </div>
         </div>
 
@@ -145,74 +148,83 @@
     </div>
   </section>
 
-  <section>
+  <section class="service-section">
 
     <div class="service-container">
       <div class="wrapper">
         <div class="service-inner">
-          <div class="service-info service-tru">
+           <a href="#" class="service-tru">
+          <div class="service-info">
             <div class="service-details">
-              <h2>TruCheck<span class="service-tm">™</span></h2>
+              <h2>TruCheck<sup class="service-tm">™</sup></h2>
               <div class="service-arrow">
-              <p>Filter your results with validated, available listings</p>
-              <span> <a href="#"><img src="Images/nexticon.png" alt="next icon"></a></span></div>
+              <p>Filter your results with validated, available listings <i class="material-icons">chevron_right</i>
+              </p>
+           </div>
             </div>
             <div class="service-img"><img src="images/graphicss1.png" alt="TruCheck™"></div>
           </div>
-          <div class="service-info service-search">
+        </a>
+        <a href="#" class="service-search">
+          <div class="service-info">
             <div class="service-details">
               <div class="service-new">
                 <h2>Search 2.0</h2><span class="banner-new">New</span>
               </div>
               <div class="service-arrow">
-              <p>Filter your results with validated, available listings</p>
-              <span> <a href="#"><img src="Images/nexticon.png" alt="next icon"></a></span></div>
+              <p>Filter your results with validated, available listings<i class="material-icons">chevron_right</i></p>             </p>
+              </div>
             </div>
-            <div class="service-img"><img src="images/graphicss2.png" alt="Search 2.0"></div>
+            <div class="service-img"><img src="images/grapi2.png" alt="Search 2.0"></div>
           </div>
-          <div class="service-info service-map">
+        </a>
+        <a href="#" class="service-map">
+          <div class="service-info">
             <div class="service-details">
               <h2>Map View</h2>
               <div class="service-arrow">
-              <p>Search for properties in preferred areas using a map</p>
-              <span> <a href="#"><img src="Images/nexticon.png" alt="next icon"></a></span></div>
+              <p>Search for properties in preferred areas using a map<i class="material-icons">chevron_right</i></p>
+             </div>
             </div>
-            <div class="service-img"><img src="images/graphic3.png" alt="Map View"></div>
+            <div class="service-img"><img src="images/road.png" alt="Map View"></div>
           </div>
+        </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section class="tour-section">
     <div class="tour-container">
       <div class="wrapper">
      <div class="tour-slider">
+       
         <div class="tour-inner">
-          <div class="tour-img"><img src="images/uniq-building.png" alt="beautifull-building"></div>
+          <div class="tour-img"><a href="#"><img src="images/uniq-building.png" alt="beautifull-building"></a></div>
           <div class="tour-info">
-            <h2>Discover immersive 360° property tours</h2>
-            <p>Explore properties from the comfort of your home</p>
-           <div class="tour-View"> <a href="#">View now</a> <span> <a href="#"><img src="Images/nextblue.png" alt="next -icon"></a></span> </div>
+              <h2> <a href="#"> Discover immersive 360° property tours</a></h2>
+            <p><a href="#">Explore properties from the comfort of your home</a></p>
+           <div class="tour-View"><a href="#">View now</a><span><a href="#"><img src="Images/nextblue2.png" alt="next-icon"></a></span></div>
           </div>
          
         </div>
+       
         <div class="tour-inner">
-            <div class="tour-img"><img src="images/uniq-building.png" alt="beautifull-building"></div>
+            <div class="tour-img"><a href="#"><img src="images/uniq-building.png" alt="beautifull-building"></a></div>
             <div class="tour-info">
-              <h2>Discover immersive 360° property tours</h2>
-              <p>Explore properties from the comfort of your home</p>
-             <div class="tour-View"> <a href="#">View now</a> <span> <a href="#"><img src="Images/nextblue.png" alt="next -icon"></a></span> </div>
+                <h2> <a href="#"> Discover immersive 360° property tours</a></h2>
+                <p><a href="#">Explore properties from the comfort of your home</a></p>
+             <div class="tour-View"> <a href="#">View now</a><span><a href="#"><img src="Images/nextblue2.png" alt="next-icon"></a></span></div>
             </div>
          
   
           </div>
           <div class="tour-inner">
-              <div class="tour-img"><img src="images/uniq-building.png" alt="beautifull-building"></div>
+              <div class="tour-img"><a href="#"><img src="images/uniq-building.png" alt="beautifull-building"></a></div>
               <div class="tour-info">
-                <h2>Discover immersive 360° property tours</h2>
-                <p>Explore properties from the comfort of your home</p>
-               <div class="tour-View"> <a href="#">View now</a> <span> <a href="#"><img src="Images/nextblue.png" alt="next -icon"></a></span> </div>
+                <h2> <a href="#"> Discover immersive 360° property tours</a></h2>
+                <p><a href="#">Explore properties from the comfort of your home</a></p>
+               <div class="tour-View"> <a href="#">View now</a> <span><a href="#"> <img src="Images/nextblue2.png" alt="next-icon"></a></span></div>
               </div>
             
     
@@ -231,38 +243,48 @@
             <h2>Discover more about the UAE real estate market</h2> <a href="#">Explore more</a>
           </div>
           <div class="Explore-Details">
+        
             <div class="Explore-Details-info">
-              <div class="Explore-img"><img src="Images/explore3.jpg" alt="Building"></div>
-              <div class="Explore-info">
-                <h2>Emaar Palm Heights</h2>
+              <div class="Explore-img"><a href="#"><img src="Images/explore3.jpg" alt="Building"></a></div>
+              <a href="#"><div class="Explore-info">
+                  <h2>Emaar Palm Heights</h2>
                 <p>3 BHK Apartment, Sector-77, Gurgaon</p>
                 <span>Rs 1.39 Cr</span>
               </div>
+            </a>
             </div> 
+          </a>
+         
             <div class="Explore-Details-info">
-                <div class="Explore-img"><img src="Images/explore2.jpg" alt="Building"></div>
-                <div class="Explore-info">
+                <div class="Explore-img"> <a href="#"><img src="Images/explore2.jpg" alt="Building"></a></div>
+               <a href="#"> <div class="Explore-info">
                   <h2>Swastik Flats</h2>
                   <p>3 BHK Builder Floor 810 Sqft, Gurgaon</p>
                   <span>Rs 4.19 Cr</span>
-                </div>
+                </div></a>
               </div>
+        
               <div class="Explore-Details-info">
-                  <div class="Explore-img"><img src="Images/explore3.jpg" alt="Building"></div>
-                  <div class="Explore-info">
+                  <div class="Explore-img"><a href="#"><img src="Images/explore3.jpg" alt="Building"> </a></div>
+                    <a href="#"> <div class="Explore-info">
                     <h2>Buildwick  Homes</h2>
                     <p>3 BHK  Apartment, Sector-61, Delhi</p>
                     <span>Rs 3.89 Cr</span>
                   </div>
+                </a>
                 </div>
+           
+               
                 <div class="Explore-Details-info">
-                    <div class="Explore-img"><img src="Images/explore4.jpg" alt="Building"></div>
-                    <div class="Explore-info">
+                    <div class="Explore-img"> <a href="#"><img src="Images/explore4.jpg" alt="Building">   </a></div>
+                    <a href="#"> <div class="Explore-info">
                       <h2>Lamar Homes</h2>
                       <p>3 BHK,Dwarka Sector 28, New Delhi</p>
                       <span>Rs 3.39 Cr</span>
                     </div>
+                  </a>
                   </div>
+                </a>
           </div>
 
         </div>
@@ -281,61 +303,61 @@
          <div class="Featured-slider slider">
         
           <div class="Featured-slide">
-            <img src="Images/com-logo1.png" alt="comapany logo">
+           <a href="#"><img src="Images/com-logo1.png" alt="comapany logo"></a>
             <div class="slide-info">
-            <h4>Al Sabeel PVT Real Estate Management</h4>
-         <p> 80 Properties to Sale  ||   160 Properties to Rent</p>
+            <h4><a href="#">Al Sabeel PVT Real Estate Management</a></h4>
+         <p> <a href="#"></a> 80 Properties to Sale  ||   160 Properties to Rent</a></p>
         </div>
           </div>
           <div class="Featured-slide">
-            <img src="Images/com-logo2.png" alt="comapany logo">
+           <a href="#"><img src="Images/com-logo2.png" alt="comapany logo"></a> 
             <div class="slide-info">
-            <h4>Al Sabeel PVT Real Estate Management</h4>
-         <p> 80 Properties to Sale  ||   160 Properties to Rent</p>
-        </div>
-          </div>
-         
-         
-          <div class="Featured-slide">
-            <img src="Images/com-logo3.png" alt="comapany logo">
-            <div class="slide-info">
-            <h4>Al Sabeel PVT Real Estate Management</h4>
-         <p> 80 Properties to Sale  ||   160 Properties to Rent</p>
+                <h4><a href="#">Al Sabeel PVT Real Estate Management</a></h4>
+                <p> <a href="#"></a> 80 Properties to Sale  ||   160 Properties to Rent</a></p>
         </div>
           </div>
          
          
           <div class="Featured-slide">
-            <img src="Images/com-logo5.png" alt="comapany logo">
+              <a href="#"><img src="Images/com-logo3.png" alt="comapany logo"></a>
             <div class="slide-info">
-            <h4>Al Sabeel PVT Real Estate Management</h4>
-         <p> 80 Properties to Sale  ||   160 Properties to Rent</p>
+                <h4><a href="#">Al Sabeel PVT Real Estate Management</a></h4>
+                <p> <a href="#"></a> 80 Properties to Sale  ||   160 Properties to Rent</a></p>
         </div>
           </div>
          
          
           <div class="Featured-slide">
-            <img src="Images/com-logo2.png" alt="comapany logo">
+              <a href="#"><img src="Images/com-logo5.png" alt="comapany logo"></a>
             <div class="slide-info">
-            <h4>Al Sabeel PVT Real Estate Management</h4>
-         <p> 80 Properties to Sale  ||   160 Properties to Rent</p>
-        </div>
-          </div>
-         
-          <div class="Featured-slide">
-            <img src="Images/com-logo4.png" alt="comapany logo">
-            <div class="slide-info">
-            <h4>Al Sabeel PVT Real Estate Management</h4>
-         <p> 80 Properties to Sale  ||   160 Properties to Rent</p>
+                <h4><a href="#">Al Sabeel PVT Real Estate Management</a></h4>
+                <p> <a href="#"></a> 80 Properties to Sale  ||   160 Properties to Rent</a></p>
         </div>
           </div>
          
          
           <div class="Featured-slide">
-            <img src="Images/com-logo5.png" alt="comapany logo">
+              <a href="#"><img src="Images/com-logo2.png" alt="comapany logo"></a>
             <div class="slide-info">
-            <h4>Al Sabeel PVT Real Estate Management</h4>
-         <p> 80 Properties to Sale  ||   160 Properties to Rent</p>
+                <h4><a href="#">Al Sabeel PVT Real Estate Management</a></h4>
+                <p> <a href="#"></a> 80 Properties to Sale  ||   160 Properties to Rent</a></p>
+        </div>
+          </div>
+         
+          <div class="Featured-slide">
+              <a href="#"><img src="Images/com-logo4.png" alt="comapany logo"></a>
+            <div class="slide-info">
+                <h4><a href="#">Al Sabeel PVT Real Estate Management</a></h4>
+                <p> <a href="#"></a> 80 Properties to Sale  ||   160 Properties to Rent</a></p>
+        </div>
+          </div>
+         
+         
+          <div class="Featured-slide">
+              <a href="#"><img src="Images/com-logo5.png" alt="comapany logo"></a>
+            <div class="slide-info">
+                <h4><a href="#">Al Sabeel PVT Real Estate Management</a></h4>
+                <p> <a href="#"></a> 80 Properties to Sale  ||   160 Properties to Rent</a></p>
         </div>
           </div>
          
@@ -358,6 +380,7 @@
               <div class="wrapper">
                 <div class="Footer-inner">
                 <div class="Footer-list"> 
+                  <div class="Footer-left">
                  <div class="About-us">
                    <h2>About Us</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, laudantium!</p>
@@ -369,7 +392,7 @@
                    </ul>
                  </div>
                  <div class="footer-links">
-                   <h4>Helpfull Links</h4>
+                   <h4>Helpful Links</h4>
                     <ul class="links-info">
                         <li><a href="#">Services</li></a>
                         <li><a href="#">Supports</li></a>
@@ -388,8 +411,9 @@
                        </ul>
  
                   </div>
+                </div>
                  <div class="policy">
-                   <p><a href="#">Home </a>   ||   <a href="#">Contact us  </a>  ||  <a href="#">  Carrers  </a>  ||   <a href="#"> Term & Privacy Policy</a></p>
+                   <p><a href="#">Home </a>   ||   <a href="#">Contact us  </a>  ||  <a href="#">  Careers  </a>  ||   <a href="#"> Term & Privacy Policy</a></p>
                 <span>2008 - 2022 <a href="#"> Bayut.com</a></span>
               </div>
             </div>
